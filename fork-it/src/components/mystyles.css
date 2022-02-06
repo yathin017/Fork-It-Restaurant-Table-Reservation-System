@@ -1,0 +1,147 @@
+.register-photo {
+    background: #f1f7fc;
+    padding: 100px 0
+}
+
+.register-photo .image-holder-1 {
+    display: table-cell;
+    width: auto;
+    background: url(https://www.theworlds50best.com/filestore/jpg/W50BR2021-150-Noma-2.jpg);
+    background-size: cover
+}
+
+.register-photo .image-holder-2 {
+    display: table-cell;
+    width: auto;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/10/93/a1/c1/daily-treats.jpg);
+    background-size: cover
+}
+
+.register-photo .image-holder-3 {
+    display: table-cell;
+    width: auto;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/1d/30/57/5b/altitude-interior.jpg);
+    background-size: cover
+}
+
+.register-photo .image-holder-4 {
+    display: table-cell;
+    width: auto;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/1d/30/57/59/altitude-rooftop-outside.jpg);
+    background-size: cover
+}
+
+.register-photo .image-holder-5 {
+    display: table-cell;
+    width: auto;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/1d/30/54/b2/bidri-ambience.jpg);
+    background-size: cover
+}
+
+.register-photo .image-holder-6 {
+    display: table-cell;
+    width: auto;
+    background: url(https://media-cdn.tripadvisor.com/media/photo-s/02/91/4d/73/getlstd-property-photo.jpg);
+    background-size: cover
+}
+
+.register-photo .form-container {
+    display: table;
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1)
+}
+
+.register-photo form {
+    display: table-cell;
+    width: 400px;
+    background-color: #ffffff;
+    padding: 40px 90px;
+    color: #505e6c
+}
+
+@media (max-width:1000px) {
+    .register-photo form {
+        padding: 40px
+    }
+}
+
+.register-photo form h2 {
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 30px
+}
+
+.register-photo form .form-control {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #dfe7f1;
+    border-radius: 0.7;
+    box-shadow: none;
+    outline: none;
+    color: inherit;
+    text-indent: 0px;
+    height: 42px
+}
+
+.register-photo form .form-check {
+    font-size: 13px;
+    line-height: 20px
+}
+
+.register-photo form .btn-primary {
+    background: green;
+    border: none;
+    border-radius: 4px;
+    padding: 11px;
+    box-shadow: none;
+    margin-top: 30px;
+    text-shadow: none;
+    outline: none !important
+}
+
+.register-photo form .btn-primary:hover,
+.register-photo form .btn-primary:active {
+    background: green
+}
+
+.register-photo form .btn-primary:active {
+    transform: translateY(1px)
+}
+
+.register-photo form .already {
+    display: block;
+    text-align: center;
+    font-size: 12px;
+    color: #6f7a85;
+    opacity: 0.9;
+    text-decoration: none
+}
+
+.tabs {
+    position: absolute;
+    top: 5;
+    height: 92%;
+    width: 0;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabs:target{
+    opacity: 1;
+    position: absolute;
+    width: 50%;
+    padding-left: 35%;
+}
+
+#tab_two{
+    padding-top: 13%;
+    padding-bottom: 20%;
+}
+
+#card{
+    width: 20rem;
+}

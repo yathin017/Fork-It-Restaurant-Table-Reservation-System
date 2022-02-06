@@ -1,0 +1,17 @@
+.wrapper {
+    text-align : center;
+}
+.image, .form {
+    display: inline-block;
+    vertical-align: top;
+}
+body{
+    background-color: #F1F7FC;
+}
+.card{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+}
+.card:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.384);
+    transform: scale(1.05);
+}
